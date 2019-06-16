@@ -20,10 +20,11 @@ We are using Unity v 2019.1.0f2 to build the app for smartphones, taking advanta
 
 ## Installation
 1. Follow _Gateway Quick Deployment Guide_ which is a part of DWM1001, DW10001-DEV and MDEK1001 Documents under [Product Documentation of MDEK1001 Development kit](https://www.decawave.com/product/mdek1001-deployment-kit/) to gather data about the all DWM tags and share them over network through MQTT protocol. Don't forget to set up network for Raspberry with _wpa_supplicant.conf_ described in the guide.
+
+
 	<img src="img/rpi.jpg" width="350" title="Gateway">
 
-	_Gateway: R3B plus one of the DWM1001 development board_
-
+	*Gateway: R3B plus one of the DWM1001 development board*
 
 
 2. Follow [MDEK1001 Quick Start Guide](https://www.decawave.com/mdek1001/quickstart/) to create a DRTLS network
@@ -31,7 +32,8 @@ We are using Unity v 2019.1.0f2 to build the app for smartphones, taking advanta
 
 
 	<img src="img/mqtt.png" width="350" title="Mqtt script">
-	_Mqtt Client script process data coming from DWM1001 gateway which is attached to the Player game object._
+
+	*Mqtt Client script process data coming from DWM1001 gateway which is attached to the Player game object.*
 
 	The _Main Player_ represents the main camera view. If we want to run multiple players on multiple app instances, we need to build another app with the different tag for the _Main Player_, or provide some interface for switching between the MQTT tag subscription.
 
