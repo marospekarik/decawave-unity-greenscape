@@ -1,6 +1,6 @@
 # decawave-unity-greenscape
 
-Tags: #mixed-reality #augmented-reality #DWM1001 #spatial-sound
+Tags: #mixed-reality #augmented-reality #DWM1001 #spatial-sound #MQTT #unity
 
 ## What is the project about?
 
@@ -14,7 +14,7 @@ This repository aims to demonstrate the connection between [MDEK1001](https://ww
 This project also try to provide an example of using such technology together with smartphone devices running Android to present the sound binaurally over headphones and achieve appropriate mobility.
 
 
-We are using Unity v 2019.1.0f2 to build the app for smartphones, taking advantage of their computational power for quality audio processing and build-in orentation sensor. We use this together with [Resonance Audio](https://resonance-audio.github.io/resonance-audio/) to provide a proper stereo panning suitable for experiencing the three-dimensional sound installation.
+We are using Unity v 2019.1.0f2 to build the app for smartphones, taking advantage of their computational power for quality audio processing and build-in orentation sensor. We use this together with [Resonance Audio](https://resonance-audio.github.io/resonance-audio/) to provide a proper stereo panning suitable for experiencing the three-dimensional sound.
 
 <img src="img/diagram.png" title="Diagram">
 
