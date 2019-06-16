@@ -5418,7 +5418,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 45d5770360a5446e1b33e3f16e17ddea,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8377812598114779359, guid: 45d5770360a5446e1b33e3f16e17ddea,
         type: 3}
@@ -6508,6 +6508,10 @@ MonoBehaviour:
   division: 1
   mainPlayer: dwm/node/4da4/uplink/location
   secondPlayer: dwm/node/9129/uplink/location
+  clientIp: 192.168.43.8
+  clientPort: 1883
+  clientUser: dwmuser
+  clientPass: dwmpass
 --- !u!1 &1780023921
 GameObject:
   m_ObjectHideFlags: 0
