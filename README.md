@@ -1,6 +1,6 @@
 # decawave-unity-greenscape
 
-Tags: #mixed-reality #augmented-reality #DWM1001 #spatial-sound
+Tags: #mixed-reality #augmented-reality #DWM1001 #spatial-sound #MQTT #unity
 
 ## What is the project about?
 
