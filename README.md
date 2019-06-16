@@ -16,17 +16,19 @@ This project also try to provide an example of using such technology together wi
 
 We are using Unity v 2019.1.0f2 to build the app for smartphones, taking advantage of their computational power for quality audio processing and build-in orentation sensor. We use this together with [Resonance Audio](https://resonance-audio.github.io/resonance-audio/) to provide a proper stereo panning suitable for experiencing the three-dimensional sound installation.
 
-<img src="img/diagram.png" width="600" title="Diagram">
-_Diagram of the system_
+<img src="img/diagram.png" title="Diagram">
 
 ## Installation
 1. Follow _Gateway Quick Deployment Guide_ which is a part of DWM1001, DW10001-DEV and MDEK1001 Documents under [Product Documentation of MDEK1001 Development kit](https://www.decawave.com/product/mdek1001-deployment-kit/) to gather data about the all DWM tags and share them over network through MQTT protocol. Don't forget to set up network for Raspberry with _wpa_supplicant.conf_ described in the guide.
 <img src="img/rpi.jpg" width="350" title="Gateway">
+
 _Gateway: R3B plus one of the DWM1001 development board_
+
 
 
 2. Follow [MDEK1001 Quick Start Guide](https://www.decawave.com/mdek1001/quickstart/) to create a DRTLS network
 3. To receive MQTT data in Unity, the clients and Raspberry Pi needs to be connected to the same network. Mqtt Client script need to be adjusted to the IP address corresponding to IP address of Raspberry pi on our network, MQTT username and password defined during our Gatewave installation, and topics we want to subscribe (in this case we care only about the tags and their location).
+
 
 <img src="img/mqtt.png" width="350" title="Mqtt script">
 _Mqtt Client script process data coming from DWM1001 gateway which is attached to the Player game object._
