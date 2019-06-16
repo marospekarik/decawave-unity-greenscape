@@ -23,6 +23,7 @@ We are using Unity v 2019.1.0f2 to build the app for smartphones, taking advanta
 
 
 	<img src="img/rpi.jpg" width="350" title="Gateway">
+
 	*Gateway: R3B plus one of the DWM1001 development board*
 
 
@@ -31,7 +32,9 @@ We are using Unity v 2019.1.0f2 to build the app for smartphones, taking advanta
 
 
 	<img src="img/mqtt.png" width="350" title="Mqtt script">
+
 	*Mqtt Client script process data coming from DWM1001 gateway which is attached to the Player game object.*
+
 
 	The _Main Player_ represents the main camera view. If we want to run multiple players on multiple app instances, we need to build another app with the different tag for the _Main Player_, or provide some interface for switching between the MQTT tag subscription.
 
