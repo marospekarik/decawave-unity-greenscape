@@ -2,6 +2,9 @@
 
 Tags: #mixed-reality #augmented-reality #DWM1001 #spatial-sound #MQTT #unity
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=5EuwteTjiYc" target="_blank"><img src="http://img.youtube.com/vi/5EuwteTjiYc/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 ## What is the project about?
 
 Greenscape is an interactive installation located in mixed reality space that is facilitating an experience of exploration of an augmented reality soundscape of Karolinelund park in Aalborg, Denmark. The user is walking through space encouraged to discover a wide range of sound elements located in the audio augmented reality soundscape.
