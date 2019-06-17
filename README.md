@@ -41,5 +41,6 @@ We are using Unity v 2019.1.0f2 to build the app for smartphones, taking advanta
 4. Additonally follow [Resonance Audio setup](https://resonance-audio.github.io/resonance-audio/) in a case that spatial audio is not working
 5. Build the app for android and connect the device with the same network
 
+All scripts + additional scripts that controlls moving game objects can be found in *src/Assets/Scripts*
 
 
