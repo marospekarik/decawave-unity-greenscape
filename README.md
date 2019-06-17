@@ -38,8 +38,8 @@ We are using Unity v 2019.1.0f2 to build the app for smartphones, taking advanta
 
 	The _Main Player_ represents the main camera view. If we want to run multiple players on multiple app instances, we need to build another app with the different tag for the _Main Player_, or provide some interface for switching between the MQTT tag subscription.
 
-4. Build the app for Android
-5. Connect Android phone to the same network
+4. Additonally follow [Resonance Audio setup](https://resonance-audio.github.io/resonance-audio/) in a case that spatial audio is not working
+5. Build the app for android and connect the device with the same network
 
 
 
